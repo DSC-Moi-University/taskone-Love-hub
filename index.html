@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webdev task one </title>
 
+    <link href="main.css"rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -19,29 +22,81 @@
     <div class="navbar">
 
         <!--Add navigation links on the right-->
+        <a class="active"href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
 
     </div>
 
     <div class="row">
         <div class="side">
             <h2>About Me</h2>
-            <h5>Photo of me:</h5>
+
+               <p > Hi? I am Lovella, a student at Moi University, pursuing a degree course in Electrical and Telecommunication Engineering.I recently joined the Developers Students Club.I confess this past few days i have been exposed to alot in the technology field.</p>
+            
+               <h5>Photo of me: </h5>
+             
             <!--Add a div of class "fakeimg"-->
             <!--Add an image as a link to navigate home of height 200px-->
-
-            <!--Add a blockquote decribing yourself ,make the key aspect strong-->
+            <div class="fakeimg">
+             <img src="http://placekitten.com/200/300"alt="Imagery of cuteness.">
+            </div>
+        
+            <!--Add a blockquote decribing yourself ,make the key aspect 
+                strong-->
+                <blockquote>
+                    Being a <strong>perfect creation of God</strong>,I acknowledge him by showing him all the respect he deserves.I am an ambivert,honest and a keen listener.
+                </blockquote>
             <h3>More Text</h3>
-            <p>Lorem ipsum dolor sit ame.</p>
+            <p >Lorem ipsum dolor sit ame. I highly recommend technology students in other universities to join DSC clubs close to them,this will add emphasis on the skills they have acquired.</p>
             <!--Add a photo album-->
-        </div>
         <div class="main">
             <!--Add a heading 2 DSC Moi University Onboarding Session -->
+            <h2>DSC Moi University Onboarding Session</h2>
             <!--Add a heading 5 with date-->
+            <h5>Wednesday,7th october 2020</h5>
             <!--Add a div class fakeimg ,add a youtube video in the div sourcing from DSC Moi University Mentorship Program Onboarding Session-->
-            <p>Some text..</p>
+            <a href="https://youtu.be/MHQmm0jTFco"target="_blank">Mentorship Session</a>
+        
+            <p>Everything was new to me but after learning the goals of the programme and my expectations,I farmiliarised with the system.I have listed them below for anyone who wishes to be part of this great journey in discovering tech.</p>
             <!--Create unordered lists with ordered sublist-->
+            <ul>
+            <li>Important steps before proceeding</li>
+                <ol>
+                    <li>Join the official DSC Moi University Workspace.</li>
+                    <li>Join your team workspace.</li>
+                    <li>Introduce yourself.</li>
+                </ol>
+            <li>Goals of the programme</li>
+                <ol>
+                    <li>Connect.</li>
+                    <li>Learn.</li>
+                    <li>Grow.</li>
+                </ol>
+            <li>Expectations of a member</li> 
+                <ol>
+                    <li>Commitment.</li> 
+                    <li>Determination.</li> 
+                    <li>Creative thinking.</li>
+                </ol> 
+            </ul>
             <br>
             <h2>Contacts</h2>
+            <form action="/action_page.php">
+                <label for="email">Enter your email:</label><br>
+                <input type="email"id="email"name="email"><br>
+                <label for="phone">Phone number:</label><br>
+                <input type="tel"id="phone"name="phone"><br>
+                <label for="message">Message:</label><br>
+                <input type="message"id="message"name="message"><br>
+                <input type="submit">
+            
+
+
+
+
+            </form>
 
 
             <!--Add a form to input email,phone number and a message-->
@@ -51,10 +106,17 @@
     <div class="footer">
         <h2>Footer</h2>
         <!-- Add favorite social media icons linking to your social account-->
+         <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <a href="#"class="fa fa-twitter"></a>
+         <a href="#"class="fa fa-instagram"></a>
+         <a href="#"class="fa fa-reddit"></a>
+
+
+
+
+
+
     </div>
-
-
-
 
 </body>
 
